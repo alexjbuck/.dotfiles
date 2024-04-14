@@ -28,6 +28,24 @@ dotfiles commit -m "Add redshift config"
 dotfiles push
 ```
 
+
+## Included Packages
+
+#### NERDTree
+
+https://github.com/preservim/nerdtree
+
+#### vim-surround
+
+https://github.com/tpope/vim-surround
+
+#### vim-fugitive
+
+https://github.com/tpope/vim-fugitive
+
+
+
 ## Reference:
 
 [StreakyCobra](https://news.ycombinator.com/user?id=StreakyCobra) on [Hacker News](https://news.ycombinator.com/item?id=11071754)
+

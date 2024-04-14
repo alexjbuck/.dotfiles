@@ -28,6 +28,11 @@ set shiftwidth=4
 " Set tab width to 4 columns.
 set tabstop=4
 
+" Set file type specific tab spacing
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+autocmd FileType toml setlocal shiftwidth=2 tabstop=2
+
 " Use space characters instead of tabs.
 set expandtab
 
@@ -88,6 +93,15 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " MAPPINGS --------------------------------------------------------------- {{{
 
 " Mappings code goes here.
+
+" Set <space> as Leader
+let mapleader=" "
+
+" NERDTree Mappings
+nnoremap <leader>fe :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+ 
 
 " }}}
 
