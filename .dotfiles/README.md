@@ -4,8 +4,8 @@
 ## To initialize on a new machine:
 
 ```
-git clone --separate-git-dir=~/.dotfiles $HOME
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+git clone --separate-git-dir=~/.dotfiles --recurse-submodules $HOME
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' --recurse-submodules
 ```
 
 ## To initialize a new dotfile repository for yourself.
@@ -49,3 +49,4 @@ https://github.com/tpope/vim-fugitive
 
 [StreakyCobra](https://news.ycombinator.com/user?id=StreakyCobra) on [Hacker News](https://news.ycombinator.com/item?id=11071754)
 
+[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
