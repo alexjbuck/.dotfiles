@@ -7,3 +7,13 @@
 [submodule ".vim/pack/plugins/start/vim-fugitive"]
 	path = .vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/pack/lsp/start/coc.nvim"]
+	path = .vim/pack/lsp/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
+[submodule ".vim/pack/colors/start/vim"]
+	path = .vim/pack/colors/start/vim
+	url = https://github.com/rose-pine/vim
+[submodule ".vim/pack/plugins/start/vim-which-key"]
+	path = .vim/pack/plugins/start/vim-which-key
+	url = https://github.com/liuchengxu/vim-which-key.git
