@@ -1,0 +1,18 @@
+[user]
+	name = Alexander Buck
+	email = abuck@spear.ai
+	signingkey = FF141FFF51323BD0
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[http]
+	sslCert = /Users/alexjbuck/.sunet/certs/alex.buck_hoplite.local.crt
+	sslKey = /Users/alexjbuck/.sunet/certs/alex.buck_hoplite.local.key
+[push]
+	autoSetupRemote = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

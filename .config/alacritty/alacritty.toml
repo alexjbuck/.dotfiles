@@ -1,0 +1,32 @@
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[font]
+size = 14
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[general]
+import = ["~/.config/alacritty/themes/themes/ayu_mirage.toml"]
+
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[scrolling]
+history = 50000
+
+[selection]
+save_to_clipboard = true
+
+[window]
+option_as_alt = "OnlyLeft"
